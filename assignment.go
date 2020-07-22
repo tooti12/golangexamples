@@ -1,8 +1,8 @@
-package golangexamples
+package golangexamples                       //importing packages.
 import	"github.com/ehteshamz/greetings"
 
 
-func ConcatSlice(sliceToConcat []byte) string {
+func ConcatSlice(sliceToConcat []byte) string {      //function named as concatslice to concatinate the string.
 	var temp string
 	for  i:=0;i<len(sliceToConcat);i++ {
 
